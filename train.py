@@ -8,6 +8,7 @@ from torch.autograd import Variable
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
 import os
+import argparse
 
 from SiameseNetwork.modelloader.siamese_net import SiameseNet
 from SiameseNetwork.dataloader.orl_face_loader import OrlFaceLoader
